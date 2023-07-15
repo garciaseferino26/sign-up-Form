@@ -10,40 +10,50 @@
 
 <body>
     <div class="leftSide">
-        <img src="./images/morning.jpg" alt="">
+        <div class="logo_bar">
+            <img src="./images/odin-lined-logo.png" id="logo">
+            <span class="name">Study</span>
+        </div>
     </div>
 
     <div class="rightSide">
-        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>You know you want to!</p>
+
         <form action="#" method="get">
-            <div class="input first_row">
-                <legend>First Name</legend>
-                <label for="first_name"></label>
-                <input type="text" id="first_name" name="first_name">
-                <legend>Last Name</legend>
-                <label for="last_name"></label>
-                <input type="text" id="last_name" name="last_name">
-            </div>
+            <h3>Let's do this!</h1>
 
-            <div class="input second_row">
-                <legend>Email</legend>
-                <label for="user-email"></label>
-                <input type="email" id="user-email" name="user_email">
-                <legend>Phone Number</legend>
-                <label for="phone_number"></label>
-                <input type="number" id="phone_number" name="phone_number">
-            </div>
+            <div class="inputs">
+                <div class="input first_col">
+                    <legend>First Name</legend>
+                    <label for="first_name"></label>
+                    <input type="text" id="first_name" name="first_name" placeholder="Thor">
 
-            <div class="input third_row">
-                <legend>Password</legend>
-                <label for="password"></label>
-                <input type="password" id="password" name="password">
-                <legend>Confirm Password</legend>
-                <label for="confirm_password"></label>
-                <input type="password" id="password" name="confirm_password">
+                    <legend>Email</legend>
+                    <label for="user-email"></label>
+                    <input type="email" id="user-email" name="user_email">
+
+                    <legend>Password</legend>
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password">
+                </div>
+
+                <div class="input second_col">
+                    <legend>Last Name</legend>
+                    <label for="last_name"></label>
+                    <input type="text" id="last_name" name="last_name" placeholder="OdinSon">
+
+                    <legend>Phone Number</legend>
+                    <label for="phone_number"></label>
+                    <input type="tel" id="phone_number" name="phone_number">
+
+                    <legend>Confirm Password</legend>
+                    <label for="confirm_password"></label>
+                    <input type="password" id="password" name="confirm_password">
+                </div>
             </div>
         </form>
-        <div class="bottom">
+
+        <div class="bottom_section">
             <button type="submit">Create Account</button>
             <p>Already have an account? <a href ="">Log in</a><p/>
         </div>
